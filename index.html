@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Damien Villeneuve</title>
+
+
+    <!-- Styles Boostrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+
+    <!-- Bibliothèque Jquery avant bibliothèque Javascript Boostrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+
+    <!-- Bibliothèque Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+
+    <!-- Bibliothèque Boostrap Javascript après Jquery -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+
+
+    <link rel="icon" type="image/png" href="images/pp.jpg"/>
+
+
+    <meta name="description"
+          content="Je m'appelle Damien Villeneuve, j’ai 19 ans, je suis étudiant en deuxième année de DUT Métiers du Multimédia et Internet à Montbéliard. Vous retrouverez sur mon site mon portfolio avec les projets et créations que j’ai réalisé.">
+
+</head>
+
+<body>
+<header style="background-color:#6441a5;"
+        class="navbar navbar-expand-md navbar-light">
+
+    <a href="index.html">
+        <img class="border-warning d-none d-md-block img-fluid rounded-circle img-thumbnail " src="images/pp.jpg"
+             alt="image de moi"/>
+    </a>
+    <button class=" mr-2 navbar-toggler bg-warning" data-toggle="collapse" data-target="#navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="my-5 my-md-0 collapse navbar-collapse " id="navigation">
+
+        <ul class=" float-md-right text-right mr-2 navbar-nav ml-auto ">
+            <li class="text-center my-5 my-md-0 nav-item">
+                <a class="text-warning mx-3 nav-link active" href="index.html"> <strong>Accueil</strong></a>
+            </li>
+            <li class="text-center my-5 my-md-0 nav-item">
+                <a class="scroll text-warning mx-3 nav-link" href="#portfolio"><strong>Portfolio</strong></a>
+            </li>
+            <li class="text-center my-5 my-md-0 nav-item">
+                <a class="scroll text-warning mx-3  nav-link" href="#contact"><strong>Contact</strong></a>
+            </li>
+
+        </ul>
+    </div>
+</header>
+
+
+<main class="" style="background-color:#9575CD;">
+    <div class="container">
+
+        <h1 class=" display-2 text-warning font-weight-bold col-md-10 p-0 ombre">
+            Damien</h1>
+        <h1 class=" display-2 text-warning col-md-10 p-0 ombre">Villeneuve</h1>
+
+
+        <div><p class="p-0 text-white col-12 my-4 ombre media"> J’ai 19 ans, je suis
+            étudiant en deuxième année de DUT Métiers du Multimédia et Internet à Montbéliard. Je suis passionné par le motion design et l'animation 3D. Sur mon site, vous trouverez mon portfolio avec les projets et créations que j’ai réalisé.</p>
+        </div>
+
+        <!-- Test carousel 
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner " role="listbox">
+
+                <div class="carousel-item  active">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://player.vimeo.com/video/508024265?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                width="1920" height="1080" frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                title="Book Damien Villeneuve"></iframe>
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="display-4">First Slide</h2>
+                        <p class="lead">This is a description for the first slide.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <video class="embed-responsive embed-responsive-16by9" controls>
+                        <source src="videos/ITW-Eugen-DEDU-WebTV-2020.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="display-4">ITW Eugen Dedu</h2>
+                        <p class="lead">Reportage sur un enseignant chercheur dans le cadre des MEL</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <img class="w-100" src="images/waw2.png" alt="">
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <img class="w-100" src="images/waw.jpg" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="display-4">Titre</h2>
+                        <p class="lead">This is a description for the third slide</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    -->
+ 
+
+   
+ <video class="pt-1 pb-5 embed-responsive embed-responsive-16by9" controls>
+                        <source src="videos/book.mp4" type="video/mp4">
+                    </video>
+
+</div>
+</main>
+
+<a id="back-to-top" href="#" class="btn btn-warning btn-lg back-to-top" style="color:#6441a5;z-index:2;" role="button"><i class="fas fa-chevron-up"></i></a>
+
+<div class="album py-5 bg-light" id="portfolio">
+    <div class="container">
+        <h2 class="text-center text-secondary"><strong>Projets étudiants</strong></h2>
+        <hr>
+        <div class="row">
+
+            <div class="col-md-4 zoom">
+                <div class="card mb-4 box-shadow">
+                    <img data-toggle="modal" data-target="#Modal" class="card-img-top" src="images/mockup.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-text"><strong>La planète Furyeuse</strong></h5>
+                        <p class="card-text">Mon premier projet de MMI en mobile first qui devait sensibiliser la jeunesse au réchauffement climatique. A inspecter en mode iphone 6/7/8.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <a type="button" class="btn btn-sm btn-warning" href="projetindiv/index.html" role="button" style="color:#6441a5;"><strong>Voir le site</strong>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 zoom">
+                <div class="card mb-4 box-shadow">
+                    <img data-toggle="modal" data-target="#Modal1" class="card-img-top" src="images/eugen.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-text"><strong>Interview Eugen Dédu</strong></h5>
+                        <p class="card-text">Interview de Eugen Dédu un enseignant-chercheur pour le Module d'Enseignement Libre : Reportage.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-warning" data-toggle="modal"
+                                        data-target="#Modal1" style="color:#6441a5;"><strong>En savoir plus</strong>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Interview Eugen Dédu</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video  class="embed-responsive embed-responsive-16by9" controls>
+                                <source src="videos/ITW-Eugen-DEDU-WebTV-2020.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 zoom">
+                <div class="card mb-4 box-shadow">
+                    <img data-toggle="modal" data-target="#Modal2" class="card-img-top" src="images/wellspot.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-text"><strong>WellSpot</strong></h5>
+                        <p class="card-text">Projet collectif qui consistait à réaliser un site web regroupant les spots de ride en Franche-Comté. </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-warning" data-toggle="modal"
+                                        data-target="#Modal2" style="color:#6441a5;"><strong>En savoir plus</strong>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Wellspot</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 zoom">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="images/mockuppc.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-text"><strong>Ebook EMN</strong></h5>
+                        <p class="card-text">Projet collectif qui consistait à réaliser un site web de vente de 4 cours sur l'Ecriture pour les Médias Numériques. Site effectué avec Wordpress.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a type="button" class="btn btn-sm btn-warning" href="http://thibaudhulin.net/" role="button" style="color:#6441a5;"><strong>Voir le site</strong>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <h2 class="text-center text-secondary"><strong>Projets personnels</strong></h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-4 zoom">
+                <div class="card mb-4 box-shadow">
+                    <img data-toggle="modal" data-target="#Modal4" class="card-img-top" src="images/donut.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-text"><strong>Donut 3D</strong></h5>
+                        <p class="card-text">Donut en 3D avec Blender</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-warning" style="color:#6441a5;"
+                                        data-toggle="modal" data-target="#Modal4"><strong>Voir plus</strong></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Donut 3D</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video loop class="embed-responsive embed-responsive-16by9" controls>
+                                <source src="videos/donut.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 zoom">
+                <div class="card mb-4 box-shadow">
+                    <img data-toggle="modal" data-target="#Modal5" class="card-img-top" src="images/satisfaisant.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-text"><strong>Animation 3D</strong></h5>
+                        <p class="card-text">Animation 3D en boucle avec Blender </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-warning" style="color:#6441a5;"
+                                        data-toggle="modal" data-target="#Modal5"><strong>Voir plus</strong></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal5" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Animation 3D</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video loop class="embed-responsive embed-responsive-16by9" controls>
+                                <source src="videos/animation1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 zoom">
+                <div class="card mb-4 box-shadow">
+                    <img data-toggle="modal" data-target="#Modal6" class="card-img-top" src="images/satisfaisant2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-text"><strong>Animation 3D</strong></h5>
+                        <p class="card-text">Animation 3D en boucle avec Blender</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-warning" style="color:#6441a5;"
+                                        data-toggle="modal" data-target="#Modal6"><strong>Voir plus</strong></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal6" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Animation 3D</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video loop class="embed-responsive embed-responsive-16by9" controls>
+                                <source src="videos/animation2.m4v" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 zoom">
+                <div class="card mb-4 box-shadow">
+                    <img data-toggle="modal" data-target="#Modal7" class="card-img-top" src="images/satisfaisant3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-text"><strong>Animation 3D</strong></h5>
+                        <p class="card-text">Animation 3D en boucle avec Blender</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-warning" style="color:#6441a5;"
+                                        data-toggle="modal" data-target="#Modal7"><strong>Voir plus</strong></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="Modal7" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Animation 3D</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video loop class="embed-responsive embed-responsive-16by9" controls>
+                                <source src="videos/animation3.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 zoom">
+                <div class="card mb-4 box-shadow">
+                    <img data-toggle="modal" data-target="#Modal8" class="card-img-top" src="images/planete.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-text"><strong>Planète low poly</strong></h5>
+                        <p class="card-text">Petite planète low poly en 3D avec Cinéma 4D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-warning" style="color:#6441a5;"
+                                        data-toggle="modal" data-target="#Modal8"><strong>Voir plus</strong></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal8" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Planète low poly</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video loop class="embed-responsive embed-responsive-16by9" controls>
+                                <source src="videos/planete.m4v" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 zoom">
+                <div class="card mb-4 box-shadow">
+                    <img data-toggle="modal" data-target="#Modal9" class="card-img-top" src="images/covid.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text"><strong>Covid-19 3D</strong></p>
+                        <p class="card-text">Modélisation et animation du coronavirus en 3D avec Blender</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-warning" style="color:#6441a5;"
+                                        data-toggle="modal" data-target="#Modal9"><strong>Voir plus</strong></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal9" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" >Covid-19 3D</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video loop class="embed-responsive embed-responsive-16by9" controls>
+                                <source src="videos/covid.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 zoom">
+                <div class="card mb-4 box-shadow">
+                    <img data-toggle="modal" data-target="#Modal10" class="card-img-top" src="images/wireframe.jpg"
+                         alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text"><strong>Wireframe</strong></p>
+                        <p class="card-text">Animation 3D type hologramme/black miror avec Blender.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-warning" style="color:#6441a5;"
+                                        data-toggle="modal" data-target="#Modal10"><strong>Voir plus</strong></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal10" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Wireframe</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video loop class="embed-responsive embed-responsive-16by9" controls>
+                                <source src="videos/wireframe.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 zoom">
+                <div class="card mb-4 box-shadow">
+                    <img data-toggle="modal" data-target="#Modal11" class="card-img-top" src="images/kobe.jpg"
+                         alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text"><strong>Glow effect</strong></p>
+                        <p class="card-text">Effet de type glow avec le plug-in Saber </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-warning" style="color:#6441a5;"
+                                        data-toggle="modal" data-target="#Modal11"><strong>Voir plus</strong></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal11" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Glow effect</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video loop class="embed-responsive embed-responsive-16by9" controls>
+                                <source src="videos/glow%20kobe.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 zoom">
+                <div class="card mb-4 box-shadow">
+                    <img data-toggle="modal" data-target="#Modal12" class="card-img-top" src="images/planètes.jpg"
+                         alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text"><strong>Planètes</strong></p>
+                        <p class="card-text">Animations de planètes avec After Effect </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-warning" style="color:#6441a5;"
+                                        data-toggle="modal" data-target="#Modal12"><strong>Voir plus</strong></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal12" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Planètes</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video loop class="embed-responsive embed-responsive-16by9" controls>
+                                <source src="videos/planetes.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="container" id="contact">
+    <div class="row d-flex justify-content-center">
+        <div class="my-5 pb-3 text-center">
+            <h2 class="mb-5 text-center text-secondary"><strong>Me contacter</strong></h2>
+            <a href="mailto:contact@damien-villeneuve.com">contact@damien-villeneuve.com</a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer style="background-color:#6441a5;"
+        class="page-footer font-small cyan darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 py-5 ">
+                <div class="d-flex justify-content-center">
+                    <!-- YouTube -->
+                    <a class="yt-ic text-warning"
+                       href="https://www.youtube.com/channel/UCGgUopNTe3EP18LQbLswQcQ">
+                        <i class="fab fa-youtube fa-lg mt-2 mr-md-5 mr-3 fa-2x"></i>
+                    </a>
+                    <!-- MMI -->
+                    <a class="text-warning"
+                       href="mmi/index.html">
+                        <img class="mr-md-5 mr-3 w-50" src="images/mmi.png" alt="">
+                    </a>
+                    <!--Linkedin -->
+                    <a class="li-ic text-warning"
+                       href="https://www.linkedin.com/in/damien-villeneuve-7b43a6197">
+                    <i class="fab fa-linkedin-in mt-2 fa-lg mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic text-warning"
+                       href="https://www.instagram.com/damichouuuu">
+                    <i class="fab fa-instagram fa-lg mt-2 mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Mail-->
+                    <a class="mail-ic text-warning"
+                       href="mailto:contact@damien-villeneuve.com">
+                    <i class="fas fa-envelope fa-lg mt-2 fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="text-white footer-copyright text-center">© 2020 Copyright : Damien Villeneuve
+    </div>
+</footer>
+</body>
+</html>
